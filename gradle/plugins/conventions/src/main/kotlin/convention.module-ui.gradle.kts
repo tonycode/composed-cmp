@@ -8,7 +8,7 @@ plugins {
 
 kotlin {
     android {
-        namespace = "dev.tonycode.sample${project.path.replace(":", ".")}"
+        namespace = "dev.tonycode.mpcomposed${project.path.replace(":", ".")}"
 
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         buildToolsVersion = libs.versions.buildTools.get()

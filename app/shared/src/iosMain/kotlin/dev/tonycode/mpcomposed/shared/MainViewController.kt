@@ -1,4 +1,4 @@
-package dev.tonycode.sample.compose
+package dev.tonycode.mpcomposed.shared
 
 import androidx.compose.ui.window.ComposeUIViewController
 

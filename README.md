@@ -1,13 +1,11 @@
-# template-cmp
+# composed-cmp
 
 [![Platform](http://img.shields.io/badge/platform-android-brightgreen.svg?style=flat)](https://developer.android.com)
 [![API](https://img.shields.io/badge/API-23%2B-blue.svg?style=flat)](https://apilevels.com)
 
 [![Platform](http://img.shields.io/badge/platform-ios-brightgreen.svg?style=flat)](https://developer.apple.com/ios/)
 
-Minimal template for **Multiplatform App** that:
-- targets 🤖Android and 🍎iOS
-- utilizes [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) for shared UI
+Various samples for [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) (CMP), targets 🤖Android and 🍎iOS
 
 
 ## Structure

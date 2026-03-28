@@ -1,4 +1,4 @@
-package dev.tonycode.sample.core.platform.dev.tonycode.sample.core.platform
+package dev.tonycode.mpcomposed.core.platform
 
 enum class TargetPlatform {
     Android,

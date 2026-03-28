@@ -1,4 +1,4 @@
-package dev.tonycode.sample.compose
+package dev.tonycode.mpcomposed.shared
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import dev.tonycode.sample.core.platform.dev.tonycode.sample.core.platform.TargetPlatform
-import dev.tonycode.sample.core.platform.dev.tonycode.sample.core.platform.targetPlatform
+import dev.tonycode.mpcomposed.core.platform.TargetPlatform
+import dev.tonycode.mpcomposed.core.platform.targetPlatform
 
 @Composable
 @Preview
@@ -21,7 +21,7 @@ fun RootContent() {
                 TargetPlatform.Ios -> "iOS"
             }
 
-            Text("Hello, $platform!", Modifier.align(Alignment.Center))
+            Text("CMP in $platform!", Modifier.align(Alignment.Center))
         }
     }
 }

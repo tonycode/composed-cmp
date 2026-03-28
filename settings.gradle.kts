@@ -1,4 +1,4 @@
-rootProject.name = "template-cmp"
+rootProject.name = "composed-cmp"
 
 @Suppress("UnstableApiUsage")
 pluginManagement {

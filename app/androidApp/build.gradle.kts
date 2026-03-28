@@ -18,13 +18,13 @@ kotlin {
 }
 
 android {
-    namespace = "dev.tonycode.sample"
+    namespace = "dev.tonycode.mpcomposed"
 
     defaultConfig {
-        applicationId = "dev.tonycode.sample"
+        applicationId = "dev.tonycode.mpcomposed"
         versionCode = 1
         versionName = "1.0.0"
-        base.archivesName = "sample-v$versionName-build_$versionCode"
+        base.archivesName = "ComposedCMP-v$versionName-build_$versionCode"
 
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
