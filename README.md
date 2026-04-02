@@ -1,11 +1,16 @@
 # composed-cmp
 
-[![Platform](http://img.shields.io/badge/platform-android-brightgreen.svg?style=flat)](https://developer.android.com)
+[![Kotlin](https://img.shields.io/badge/Kotlin-v2.3.20-blueviolet?logo=kotlin)](https://kotlinlang.org/)
+[![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-v1.10.3-4285F4?logo=jetpackcompose)](https://kotlinlang.org/compose-multiplatform/)
+
+[![Platform](http://img.shields.io/badge/platform-Android-brightgreen.svg?logo=android&style=flat)](https://developer.android.com)
 [![API](https://img.shields.io/badge/API-23%2B-blue.svg?style=flat)](https://apilevels.com)
 
-[![Platform](http://img.shields.io/badge/platform-ios-brightgreen.svg?style=flat)](https://developer.apple.com/ios/)
+[![Platform](http://img.shields.io/badge/platform-iOS-brightgreen.svg?logo=apple&style=flat)](https://developer.apple.com/ios/)
 
-Various samples for [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) (CMP), targets 🤖Android and 🍎iOS
+Various samples for [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) (CMP)
+
+Targets: 🤖Android and 🍎iOS
 
 
 ## Structure
@@ -15,12 +20,14 @@ Various samples for [Compose Multiplatform](https://kotlinlang.org/compose-multi
     - androidApp/ # Android native app (Kotlin)
     - iosApp/     # iOS native app (Swift)
     - shared/     # shared UI in Compose Multiplatform, and ViewController binding for iOS
+- core/*
+- feature/*
 ```
 
 
 ## Fresh stack
 
-(as of 21.03.2026)
+(as of 2026-Apr-02)
 
 - Gradle 9.4.1
 - Kotlin 2.3.20
@@ -33,17 +40,17 @@ Various samples for [Compose Multiplatform](https://kotlinlang.org/compose-multi
 
 ### 🤖Android
 
-**Android Studio**
+▶️ **Android Studio**
 - Pick `app.androidApp` run configuration
 
 ### 🍎iOS
 
 - Put your `TEAM_ID` into `app/iosApp/Configuration/Config.xcconfig`
 
-**Xcode**
+▶️ **Xcode**
 - Open `app/iosApp/iosApp.xcodeproj` with Xcode
 
-**Android Studio**
+▶️ **Android Studio**
 - Pick `iosApp` run configuration
 
 
