@@ -1,0 +1,47 @@
+# The .editorconfig is used to maintain consistent code style.
+# The .editorconfig file is supported by most text editors.
+#
+# See:
+# - https://editorconfig.org
+#
+# A list of supported properties:
+# - https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+tab_width = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+
+ktlint_code_style = ktlint_official
+
+# Ignore generated sources for all tools
+ktlint_disabled_files = build/generated/**, **/generated/**, build/**/ksp/**, build/**/kapt/**
+
+[*.{java,kt}]
+ij_continuation_indent_size = 4 # https://github.com/editorconfig/editorconfig/issues/412
+
+[*.{kt,kts}]
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_allow_trailing_comma_on_call_site = true
+ij_kotlin_allow_trailing_comma_on_declaration_site = true
+#ij_kotlin_imports_layout = *,java.**,javax.**,kotlin.**,kotlinx.**,android.**,androidx.**
+
+[*.kt]
+# KtLint tuning (refer https://pinterest.github.io/ktlint/latest/rules/standard/)
+ktlint_function_naming_ignore_when_annotated_with = Composable
+ktlint_standard_annotation = disabled # Allows `class FooViewModel @Inject constructor()` on the same line.
+ktlint_standard_package-name = disabled # Allows underscores in package names
+ktlint_standard_chain-method-continuation = disabled # Allows builder pattern on the same line
+
+[**/generated/**]
+# https://github.com/JLLeitschuh/ktlint-gradle/issues/724
+generated_code = true
+ij_formatter_enabled = false
+ktlint = disabled

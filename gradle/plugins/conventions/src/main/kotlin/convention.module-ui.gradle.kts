@@ -4,6 +4,8 @@ plugins {
     alias(libs.plugins.composeCompiler)
 
     alias(libs.plugins.androidMultiplatformLibrary)
+
+    id("convention.checks-ktlint")
 }
 
 kotlin {

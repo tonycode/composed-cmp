@@ -27,4 +27,5 @@ dependencyResolutionManagement {
     }
 }
 
+include(":checks")
 include(":conventions")

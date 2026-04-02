@@ -22,8 +22,11 @@ java = "11"
 
 [libraries]
 
-## --- Multiplatform dependencies ---
+## --- Convention plugins dependencies ---
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+ktlint-gradlePlugin = "org.jlleitschuh.gradle.ktlint:org.jlleitschuh.gradle.ktlint.gradle.plugin:14.2.0" # https://github.com/JLLeitschuh/ktlint-gradle
+
+## --- Multiplatform dependencies ---
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 
 compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "composeMultiplatform" }
