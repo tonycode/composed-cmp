@@ -1,0 +1,10 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.core.platform:presentation>
+final val dev.tonycode.mpcomposed.core.platform.presentation/platformName // dev.tonycode.mpcomposed.core.platform.presentation/platformName|{}platformName[0]
+    final fun <get-platformName>(): kotlin/String // dev.tonycode.mpcomposed.core.platform.presentation/platformName.<get-platformName>|<get-platformName>(){}[0]

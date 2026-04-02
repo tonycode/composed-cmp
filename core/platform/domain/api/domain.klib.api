@@ -1,0 +1,25 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.core.platform:domain>
+final enum class dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform : kotlin/Enum<dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform> { // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform|null[0]
+    enum entry Android // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.Android|null[0]
+    enum entry Ios // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.Ios|null[0]
+
+    final val entries // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.entries|#static{}entries[0]
+        final fun <get-entries>(): kotlin.enums/EnumEntries<dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform> // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.entries.<get-entries>|<get-entries>#static(){}[0]
+
+    final fun valueOf(kotlin/String): dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.valueOf|valueOf#static(kotlin.String){}[0]
+    final fun values(): kotlin/Array<dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform> // dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform.values|values#static(){}[0]
+}
+
+final val dev.tonycode.mpcomposed.core.platform.domain/isAndroid // dev.tonycode.mpcomposed.core.platform.domain/isAndroid|@dev.tonycode.mpcomposed.core.platform.domain.TargetPlatform{}isAndroid[0]
+    final fun (dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform).<get-isAndroid>(): kotlin/Boolean // dev.tonycode.mpcomposed.core.platform.domain/isAndroid.<get-isAndroid>|<get-isAndroid>@dev.tonycode.mpcomposed.core.platform.domain.TargetPlatform(){}[0]
+final val dev.tonycode.mpcomposed.core.platform.domain/isIos // dev.tonycode.mpcomposed.core.platform.domain/isIos|@dev.tonycode.mpcomposed.core.platform.domain.TargetPlatform{}isIos[0]
+    final fun (dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform).<get-isIos>(): kotlin/Boolean // dev.tonycode.mpcomposed.core.platform.domain/isIos.<get-isIos>|<get-isIos>@dev.tonycode.mpcomposed.core.platform.domain.TargetPlatform(){}[0]
+final val dev.tonycode.mpcomposed.core.platform.domain/targetPlatform // dev.tonycode.mpcomposed.core.platform.domain/targetPlatform|{}targetPlatform[0]
+    final fun <get-targetPlatform>(): dev.tonycode.mpcomposed.core.platform.domain/TargetPlatform // dev.tonycode.mpcomposed.core.platform.domain/targetPlatform.<get-targetPlatform>|<get-targetPlatform>(){}[0]

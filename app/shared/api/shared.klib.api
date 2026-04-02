@@ -1,0 +1,10 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.app:shared>
+final fun dev.tonycode.mpcomposed.shared/MainViewController(): platform.UIKit/UIViewController // dev.tonycode.mpcomposed.shared/MainViewController|MainViewController(){}[0]
+final fun dev.tonycode.mpcomposed.shared/RootContent(androidx.compose.runtime/Composer?, kotlin/Int) // dev.tonycode.mpcomposed.shared/RootContent|RootContent(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
