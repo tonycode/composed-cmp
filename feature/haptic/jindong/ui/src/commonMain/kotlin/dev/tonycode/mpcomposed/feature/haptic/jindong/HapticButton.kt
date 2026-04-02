@@ -22,8 +22,10 @@ internal fun HapticButton(
 ) {
     var hapticTriggerCount by remember { mutableStateOf(0) }
 
-    Jindong(hapticTriggerCount) {
-        hapticPattern()
+    if (hapticTriggerCount > 0) {
+        Jindong(hapticTriggerCount) {
+            hapticPattern()
+        }
     }
 
     Button(
