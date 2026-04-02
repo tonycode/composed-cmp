@@ -55,6 +55,8 @@ composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "k
 androidMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 
+gradleDoctor = { id = "com.osacky.doctor", version = "0.12.1" } # https://github.com/runningcode/gradle-doctor/
+
 # Plugins defined by this project
 convention-module-data = { id = "convention.module-data", version = "unspecified" }
 convention-module-domain = { id = "convention.module-domain", version = "unspecified" }

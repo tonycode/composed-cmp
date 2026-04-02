@@ -8,6 +8,15 @@ plugins {
 
     alias(libs.plugins.androidMultiplatformLibrary) apply false
     alias(libs.plugins.androidApplication) apply false
+
+    // Plugins for Gradle build-logic
+    alias(libs.plugins.gradleDoctor)
+}
+
+doctor {
+    javaHome {
+        failOnError.set(false)
+    }
 }
 
 //region tasks
