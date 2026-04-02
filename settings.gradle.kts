@@ -44,4 +44,7 @@ enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 
 include(":app:androidApp")
 include(":app:shared")
-include(":core:platform")
+include(":core:designsystem")
+include(":core:platform:domain")
+include(":core:platform:presentation")
+include(":feature:haptic:jindong:ui")

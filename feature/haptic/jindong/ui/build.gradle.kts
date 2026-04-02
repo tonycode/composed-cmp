@@ -6,7 +6,8 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(projects.core.platform.presentation)
-            implementation(projects.feature.haptic.jindong.ui)
+
+            implementation(libs.jindong.compose)
         }
     }
 }

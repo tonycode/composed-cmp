@@ -1,8 +1,5 @@
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
-    alias(libs.plugins.composeMultiplatform)
-    alias(libs.plugins.composeCompiler)
-
     alias(libs.plugins.androidMultiplatformLibrary)
 }
 
@@ -21,29 +18,14 @@ kotlin {
     listOf(
         iosArm64(),
         iosSimulatorArm64()
-    ).forEach { iosTarget ->
-        iosTarget.binaries.framework {
-            baseName = "ComposeApp"
-            isStatic = true
-        }
-    }
+    )
 
     jvmToolchain(libs.versions.java.get().toInt())
 
     sourceSets {
         commonMain {
             dependencies {
-                if (path != ":core:designsystem") {
-                    implementation(project(":core:designsystem"))
-                }
-
                 implementation(libs.kotlin.stdlib)
-                implementation(libs.compose.runtime)
-                implementation(libs.compose.foundation)
-                implementation(libs.compose.material3)
-                implementation(libs.compose.materialIconsCore)
-                implementation(libs.compose.ui)
-                implementation(libs.compose.uiToolingPreview)
             }
         }
 
@@ -53,9 +35,4 @@ kotlin {
             }
         }
     }
-}
-
-dependencies {
-    // ui-tooling is required for the Compose Preview to render in Android Studio.
-    androidRuntimeClasspath(libs.compose.uiTooling)
 }

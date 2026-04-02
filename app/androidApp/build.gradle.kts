@@ -9,6 +9,7 @@ kotlin {
     jvmToolchain(libs.versions.java.get().toInt())
 
     dependencies {
+        implementation(projects.core.designsystem)
         implementation(projects.app.shared)
 
         implementation(libs.androidx.core.ktx)
