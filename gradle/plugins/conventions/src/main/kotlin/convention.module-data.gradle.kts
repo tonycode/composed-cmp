@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.abi.ExperimentalAbiValidation
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidMultiplatformLibrary)
@@ -36,5 +38,10 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
+    }
+
+    @OptIn(ExperimentalAbiValidation::class)
+    abiValidation {
+        enabled = true
     }
 }
