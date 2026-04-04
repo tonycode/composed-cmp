@@ -1,0 +1,9 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.feature.showcases:ui>
+final fun (androidx.navigation3.runtime/EntryProviderScope<androidx.navigation3.runtime/NavKey>).dev.tonycode.mpcomposed.feature.showcases.ui.navigation/showcasesEntry(androidx.navigation3.runtime/NavBackStack<androidx.navigation3.runtime/NavKey>) // dev.tonycode.mpcomposed.feature.showcases.ui.navigation/showcasesEntry|showcasesEntry@androidx.navigation3.runtime.EntryProviderScope<androidx.navigation3.runtime.NavKey>(androidx.navigation3.runtime.NavBackStack<androidx.navigation3.runtime.NavKey>){}[0]

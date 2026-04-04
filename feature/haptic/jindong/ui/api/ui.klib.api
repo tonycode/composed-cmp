@@ -6,4 +6,4 @@
 // - Show declarations: true
 
 // Library unique name: <composed-cmp.feature.haptic.jindong:ui>
-final fun dev.tonycode.mpcomposed.feature.haptic.jindong/JindongShowcaseScreen(kotlin/Function0<kotlin/Unit>, androidx.compose.ui/Modifier?, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // dev.tonycode.mpcomposed.feature.haptic.jindong/JindongShowcaseScreen|JindongShowcaseScreen(kotlin.Function0<kotlin.Unit>;androidx.compose.ui.Modifier?;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun (androidx.navigation3.runtime/EntryProviderScope<androidx.navigation3.runtime/NavKey>).dev.tonycode.mpcomposed.feature.haptic.jindong.navigation/hapticJindongShowcaseEntry(androidx.navigation3.runtime/NavBackStack<androidx.navigation3.runtime/NavKey>) // dev.tonycode.mpcomposed.feature.haptic.jindong.navigation/hapticJindongShowcaseEntry|hapticJindongShowcaseEntry@androidx.navigation3.runtime.EntryProviderScope<androidx.navigation3.runtime.NavKey>(androidx.navigation3.runtime.NavBackStack<androidx.navigation3.runtime.NavKey>){}[0]

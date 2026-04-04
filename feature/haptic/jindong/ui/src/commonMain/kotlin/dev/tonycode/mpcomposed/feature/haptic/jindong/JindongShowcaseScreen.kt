@@ -14,12 +14,8 @@ import dev.tonycode.mpcomposed.core.designsystem.theme.DsTheme
 import io.github.compose.jindong.JindongProvider
 
 @Composable
-fun JindongShowcaseScreen(
-    onNavigateBack: () -> Unit,
-    modifier: Modifier = Modifier,
-) {
+internal fun JindongShowcaseScreen(onNavigateBack: () -> Unit) {
     Scaffold(
-        modifier,
         topBar = { DsTopBar("Haptic: Jindong", onNavigateBack) },
     ) { contentPadding ->
         JindongProvider {

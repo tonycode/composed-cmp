@@ -39,6 +39,7 @@ Targets: 🤖Android and 🍎iOS
 - Kotlin 2.3.20
 - ComposeMultiplatform 1.10.3
 - Material3
+- Navigation3
 - AGP 9.1.0
 
 
@@ -46,18 +47,18 @@ Targets: 🤖Android and 🍎iOS
 
 ### 🤖Android
 
-▶️ **Android Studio**
+**Android Studio**
 - Pick `app.androidApp` run configuration
 
 ### 🍎iOS
 
 - Put your `TEAM_ID` into `app/iosApp/Configuration/Config.xcconfig`
 
-▶️ **Xcode**
-- Open `app/iosApp/iosApp.xcodeproj` with Xcode
-
-▶️ **Android Studio**
+**Android Studio**
 - Pick `iosApp` run configuration
+
+**Xcode**
+- Open `app/iosApp/iosApp.xcodeproj` with Xcode
 
 
 ## License

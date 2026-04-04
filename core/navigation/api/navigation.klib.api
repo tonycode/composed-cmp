@@ -1,0 +1,30 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.core:navigation>
+sealed interface dev.tonycode.mpcomposed.core.navigation/Route : androidx.navigation3.runtime/NavKey { // dev.tonycode.mpcomposed.core.navigation/Route|null[0]
+    final object Companion : kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.Companion|null[0]
+        final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route> // dev.tonycode.mpcomposed.core.navigation/Route.Companion.serializer|serializer(){}[0]
+        final fun serializer(kotlin/Array<out kotlinx.serialization/KSerializer<*>>...): kotlinx.serialization/KSerializer<*> // dev.tonycode.mpcomposed.core.navigation/Route.Companion.serializer|serializer(kotlin.Array<out|kotlinx.serialization.KSerializer<*>>...){}[0]
+    }
+
+    final object HapticJindongShowcase : dev.tonycode.mpcomposed.core.navigation/Route, kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.hashCode|hashCode(){}[0]
+        final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase> // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.serializer|serializer(){}[0]
+        final fun serializer(kotlin/Array<out kotlinx.serialization/KSerializer<*>>...): kotlinx.serialization/KSerializer<*> // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.serializer|serializer(kotlin.Array<out|kotlinx.serialization.KSerializer<*>>...){}[0]
+        final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.toString|toString(){}[0]
+    }
+
+    final object Showcases : dev.tonycode.mpcomposed.core.navigation/Route, kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.Showcases|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.hashCode|hashCode(){}[0]
+        final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route.Showcases> // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.serializer|serializer(){}[0]
+        final fun serializer(kotlin/Array<out kotlinx.serialization/KSerializer<*>>...): kotlinx.serialization/KSerializer<*> // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.serializer|serializer(kotlin.Array<out|kotlinx.serialization.KSerializer<*>>...){}[0]
+        final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.toString|toString(){}[0]
+    }
+}

@@ -40,6 +40,7 @@ kotlin {
                 if (path != ":core:designsystem") {
                     implementation(project(":core:designsystem"))
                 }
+                implementation(project(":core:navigation")) // each module-ui is aware about all nav keys
 
                 implementation(libs.kotlin.stdlib)
                 implementation(libs.compose.runtime)
@@ -48,6 +49,7 @@ kotlin {
                 implementation(libs.compose.materialIconsCore)
                 implementation(libs.compose.ui)
                 implementation(libs.compose.uiToolingPreview)
+                implementation(libs.navigation3.ui)
             }
         }
 
