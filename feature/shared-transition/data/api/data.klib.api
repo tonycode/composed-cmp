@@ -1,0 +1,11 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.feature.shared-transition:data>
+final object dev.tonycode.mpcomposed.feature.shared_transition.data.di/SharedTransitionDataModule { // dev.tonycode.mpcomposed.feature.shared_transition.data.di/SharedTransitionDataModule|null[0]
+    final fun provideFooRepository(): dev.tonycode.mpcomposed.feature.shared_transition.domain/FooRepository // dev.tonycode.mpcomposed.feature.shared_transition.data.di/SharedTransitionDataModule.provideFooRepository|provideFooRepository(){}[0]
+}

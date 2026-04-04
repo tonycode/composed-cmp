@@ -1,0 +1,21 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.feature.shared-transition:presentation>
+final class dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooDetailsViewModel : androidx.lifecycle/ViewModel { // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooDetailsViewModel|null[0]
+    constructor <init>(kotlin/Int, dev.tonycode.mpcomposed.feature.shared_transition.domain/FooRepository) // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooDetailsViewModel.<init>|<init>(kotlin.Int;dev.tonycode.mpcomposed.feature.shared_transition.domain.FooRepository){}[0]
+
+    final val foo // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooDetailsViewModel.foo|{}foo[0]
+        final fun <get-foo>(): dev.tonycode.mpcomposed.feature.shared_transition.domain/Foo? // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooDetailsViewModel.foo.<get-foo>|<get-foo>(){}[0]
+}
+
+final class dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooListViewModel : androidx.lifecycle/ViewModel { // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooListViewModel|null[0]
+    constructor <init>(dev.tonycode.mpcomposed.feature.shared_transition.domain/FooRepository) // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooListViewModel.<init>|<init>(dev.tonycode.mpcomposed.feature.shared_transition.domain.FooRepository){}[0]
+
+    final val fooList // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooListViewModel.fooList|{}fooList[0]
+        final fun <get-fooList>(): kotlin.collections/List<dev.tonycode.mpcomposed.feature.shared_transition.domain/Foo> // dev.tonycode.mpcomposed.feature.shared_transition.presentation/FooListViewModel.fooList.<get-fooList>|<get-fooList>(){}[0]
+}

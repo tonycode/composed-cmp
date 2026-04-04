@@ -20,6 +20,48 @@ sealed interface dev.tonycode.mpcomposed.core.navigation/Route : androidx.naviga
         final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.HapticJindongShowcase.toString|toString(){}[0]
     }
 
+    final object SharedTransition : kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition|null[0]
+        final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.equals|equals(kotlin.Any?){}[0]
+        final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.hashCode|hashCode(){}[0]
+        final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.serializer|serializer(){}[0]
+        final fun serializer(kotlin/Array<out kotlinx.serialization/KSerializer<*>>...): kotlinx.serialization/KSerializer<*> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.serializer|serializer(kotlin.Array<out|kotlinx.serialization.KSerializer<*>>...){}[0]
+        final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.toString|toString(){}[0]
+
+        final class FooDetails : dev.tonycode.mpcomposed.core.navigation/Route { // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails|null[0]
+            constructor <init>(kotlin/Int) // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.<init>|<init>(kotlin.Int){}[0]
+
+            final val id // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.id|{}id[0]
+                final fun <get-id>(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.id.<get-id>|<get-id>(){}[0]
+
+            final fun component1(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.component1|component1(){}[0]
+            final fun copy(kotlin/Int = ...): dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.copy|copy(kotlin.Int){}[0]
+            final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.equals|equals(kotlin.Any?){}[0]
+            final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.hashCode|hashCode(){}[0]
+            final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.toString|toString(){}[0]
+
+            final object $serializer : kotlinx.serialization.internal/GeneratedSerializer<dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails> { // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer|null[0]
+                final val descriptor // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer.descriptor|{}descriptor[0]
+                    final fun <get-descriptor>(): kotlinx.serialization.descriptors/SerialDescriptor // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer.descriptor.<get-descriptor>|<get-descriptor>(){}[0]
+
+                final fun childSerializers(): kotlin/Array<kotlinx.serialization/KSerializer<*>> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer.childSerializers|childSerializers(){}[0]
+                final fun deserialize(kotlinx.serialization.encoding/Decoder): dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer.deserialize|deserialize(kotlinx.serialization.encoding.Decoder){}[0]
+                final fun serialize(kotlinx.serialization.encoding/Encoder, dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails) // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.$serializer.serialize|serialize(kotlinx.serialization.encoding.Encoder;dev.tonycode.mpcomposed.core.navigation.Route.SharedTransition.FooDetails){}[0]
+            }
+
+            final object Companion { // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.Companion|null[0]
+                final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooDetails.Companion.serializer|serializer(){}[0]
+            }
+        }
+
+        final object FooList : dev.tonycode.mpcomposed.core.navigation/Route, kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList|null[0]
+            final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList.equals|equals(kotlin.Any?){}[0]
+            final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList.hashCode|hashCode(){}[0]
+            final fun serializer(): kotlinx.serialization/KSerializer<dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList.serializer|serializer(){}[0]
+            final fun serializer(kotlin/Array<out kotlinx.serialization/KSerializer<*>>...): kotlinx.serialization/KSerializer<*> // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList.serializer|serializer(kotlin.Array<out|kotlinx.serialization.KSerializer<*>>...){}[0]
+            final fun toString(): kotlin/String // dev.tonycode.mpcomposed.core.navigation/Route.SharedTransition.FooList.toString|toString(){}[0]
+        }
+    }
+
     final object Showcases : dev.tonycode.mpcomposed.core.navigation/Route, kotlinx.serialization.internal/SerializerFactory { // dev.tonycode.mpcomposed.core.navigation/Route.Showcases|null[0]
         final fun equals(kotlin/Any?): kotlin/Boolean // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.equals|equals(kotlin.Any?){}[0]
         final fun hashCode(): kotlin/Int // dev.tonycode.mpcomposed.core.navigation/Route.Showcases.hashCode|hashCode(){}[0]

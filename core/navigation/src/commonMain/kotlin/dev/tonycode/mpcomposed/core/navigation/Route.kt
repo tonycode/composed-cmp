@@ -9,5 +9,16 @@ sealed interface Route : NavKey {
     data object Showcases : Route
 
     @Serializable
+    data object SharedTransition {
+        @Serializable
+        data object FooList : Route
+
+        @Serializable
+        data class FooDetails(
+            val id: Int,
+        ) : Route
+    }
+
+    @Serializable
     data object HapticJindongShowcase : Route
 }

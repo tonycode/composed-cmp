@@ -1,0 +1,11 @@
+// Klib ABI Dump
+// Targets: [iosArm64, iosSimulatorArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <composed-cmp.feature.shared-transition:ui>
+final fun (androidx.navigation3.runtime/EntryProviderScope<androidx.navigation3.runtime/NavKey>).dev.tonycode.mpcomposed.feature.shared_transition.ui.navigation/sharedTransitionFlow(androidx.navigation3.runtime/NavBackStack<androidx.navigation3.runtime/NavKey>, androidx.compose.animation/SharedTransitionScope) // dev.tonycode.mpcomposed.feature.shared_transition.ui.navigation/sharedTransitionFlow|sharedTransitionFlow@androidx.navigation3.runtime.EntryProviderScope<androidx.navigation3.runtime.NavKey>(androidx.navigation3.runtime.NavBackStack<androidx.navigation3.runtime.NavKey>;androidx.compose.animation.SharedTransitionScope){}[0]
+final fun dev.tonycode.mpcomposed.feature.shared_transition.ui/FooDetailsScreen(kotlin/Int, kotlin/Function0<kotlin/Unit>, androidx.compose.animation/SharedTransitionScope?, androidx.compose.animation/AnimatedVisibilityScope?, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // dev.tonycode.mpcomposed.feature.shared_transition.ui/FooDetailsScreen|FooDetailsScreen(kotlin.Int;kotlin.Function0<kotlin.Unit>;androidx.compose.animation.SharedTransitionScope?;androidx.compose.animation.AnimatedVisibilityScope?;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun dev.tonycode.mpcomposed.feature.shared_transition.ui/FooListScreen(kotlin/Function0<kotlin/Unit>, kotlin/Function1<kotlin/Int, kotlin/Unit>, androidx.compose.animation/SharedTransitionScope?, androidx.compose.animation/AnimatedVisibilityScope?, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // dev.tonycode.mpcomposed.feature.shared_transition.ui/FooListScreen|FooListScreen(kotlin.Function0<kotlin.Unit>;kotlin.Function1<kotlin.Int,kotlin.Unit>;androidx.compose.animation.SharedTransitionScope?;androidx.compose.animation.AnimatedVisibilityScope?;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]

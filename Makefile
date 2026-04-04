@@ -18,7 +18,7 @@ fmt:
 .PHONY: a-dka a-dka-on a-dka-off
 
 # Adjust these defaults if you want different values
-ADB ?= adb -d
+ADB ?= adb
 #ADB ?= adb -d # device
 #ADB ?= adb -e # emulator
 

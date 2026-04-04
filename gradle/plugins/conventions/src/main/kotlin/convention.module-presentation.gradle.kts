@@ -30,6 +30,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(libs.kotlin.stdlib)
+                implementation(libs.lifecycle.viewmodel.core)
             }
         }
 

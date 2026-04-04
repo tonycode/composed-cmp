@@ -15,12 +15,16 @@ import dev.tonycode.mpcomposed.core.designsystem.theme.DsTheme
 import dev.tonycode.mpcomposed.core.platform.presentation.platformName
 
 @Composable
-internal fun ShowcasesScreen(onNavigateToHapticShowcase: () -> Unit) {
+internal fun ShowcasesScreen(
+    onNavigateToHapticShowcase: () -> Unit,
+    onNavigateToSharedTransitionShowcase: () -> Unit,
+) {
     Scaffold(
         topBar = { DsTopBar(title = "CMP on $platformName") },
     ) { contentPadding ->
         Column(Modifier.padding(contentPadding).fillMaxWidth().padding(32.dp)) {
             Button(onNavigateToHapticShowcase, Modifier.fillMaxWidth()) { Text("Haptic effect") }
+            Button(onNavigateToSharedTransitionShowcase, Modifier.fillMaxWidth()) { Text("Shared element transition") }
         }
     }
 }
@@ -32,6 +36,7 @@ private fun PreviewHomeScreen() {
     DsTheme {
         ShowcasesScreen(
             onNavigateToHapticShowcase = {},
+            onNavigateToSharedTransitionShowcase = {},
         )
     }
 }

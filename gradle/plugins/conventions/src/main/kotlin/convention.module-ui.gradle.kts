@@ -49,6 +49,7 @@ kotlin {
                 implementation(libs.compose.materialIconsCore)
                 implementation(libs.compose.ui)
                 implementation(libs.compose.uiToolingPreview)
+                implementation(libs.lifecycle.viewmodel.compose)
                 implementation(libs.navigation3.ui)
             }
         }

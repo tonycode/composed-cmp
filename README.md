@@ -18,6 +18,8 @@ Targets: 🤖Android and 🍎iOS
 **Haptic / Vibration**
 - Jindong lib usage
 
+**Master / Detail flow**
+- Shared element transition with Navigation 3
 
 ## Structure
 
