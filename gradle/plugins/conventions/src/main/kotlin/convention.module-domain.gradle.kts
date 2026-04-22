@@ -41,7 +41,5 @@ kotlin {
     }
 
     @OptIn(ExperimentalAbiValidation::class)
-    abiValidation {
-        enabled = true
-    }
+    abiValidation()
 }
