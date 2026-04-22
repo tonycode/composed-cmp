@@ -19,8 +19,8 @@ android-compileSdk = "36"
 android-minSdk = "24" # 24 is min for haptic jindong lib
 android-targetSdk = "36"
 buildTools = "36.1.0"
-agp = "9.1.0" # https://developer.android.com/studio/releases/gradle-plugin
-java = "11"
+agp = "9.2.0" # https://developer.android.com/studio/releases/gradle-plugin
+java = "17"
 
 
 [libraries]

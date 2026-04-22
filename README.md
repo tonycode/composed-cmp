@@ -35,14 +35,14 @@ Targets: 🤖Android and 🍎iOS
 
 ## Fresh stack
 
-(as of 2026-Apr-02)
+(as of 2026-Apr-22)
 
 - Gradle 9.4.1
 - Kotlin 2.3.20
 - ComposeMultiplatform 1.10.3
 - Material3
 - Navigation3
-- AGP 9.1.0
+- AGP 9.2.0
 
 
 ## Running
