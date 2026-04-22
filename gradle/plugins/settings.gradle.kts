@@ -1,7 +1,7 @@
 rootProject.name = "plugins"
 
 plugins {
-    id("dev.panuszewski.typesafe-conventions") version "0.10.0" // https://github.com/radoslaw-panuszewski/typesafe-conventions-gradle-plugin
+    id("dev.panuszewski.typesafe-conventions") version "0.10.1" // https://github.com/radoslaw-panuszewski/typesafe-conventions-gradle-plugin
 }
 
 @Suppress("UnstableApiUsage")

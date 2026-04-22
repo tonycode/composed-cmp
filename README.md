@@ -41,7 +41,7 @@ Targets: 🤖Android and 🍎iOS
 - Kotlin 2.3.20
 - ComposeMultiplatform 1.10.3
 - Material3
-- Navigation3
+- Navigation3 1.1.0
 - AGP 9.2.0
 
 

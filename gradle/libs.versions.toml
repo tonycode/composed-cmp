@@ -6,12 +6,12 @@ gradle = "9.4.1" # https://gradle.org/releases/
 
 ## --- Multiplatform ---
 kotlin = "2.3.20" # https://github.com/JetBrains/kotlin
-kotlinx-serialization = "1.10.0" # https://github.com/kotlin/kotlinx.serialization
+kotlinx-serialization = "1.11.0" # https://github.com/kotlin/kotlinx.serialization
 composeMultiplatform = "1.10.3" # https://github.com/JetBrains/compose-multiplatform
 material3 = "1.10.0-alpha05" # see at composeMultiplatform release-notes
-navigation3 = "1.0.0-alpha06" # see at composeMultiplatform release-notes, and https://mvnrepository.com/artifact/org.jetbrains.androidx.navigation3/navigation3-ui
+navigation3 = "1.1.0" # see at composeMultiplatform release-notes, and https://mvnrepository.com/artifact/org.jetbrains.androidx.navigation3/navigation3-ui
 composeIcons = "1.7.3" # https://mvnrepository.com/artifact/org.jetbrains.compose.material/material-icons-core
-lifecycle = "2.10.0"
+lifecycle = "2.10.0" # https://developer.android.com/jetpack/androidx/releases/lifecycle
 
 ## --- Android ---
 # reference on Android api levels: https://apilevels.com/
@@ -44,7 +44,7 @@ compose-materialIconsCore = { module = "org.jetbrains.compose.material:material-
 compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 compose-uiTooling = { module = "org.jetbrains.compose.ui:ui-tooling", version.ref = "composeMultiplatform" }
 compose-uiToolingPreview = { module = "org.jetbrains.compose.ui:ui-tooling-preview", version.ref = "composeMultiplatform" }
-navigation3-common = { module = "androidx.navigation3:navigation3-runtime", version = "1.0.1" }
+navigation3-common = { module = "androidx.navigation3:navigation3-runtime", version = "1.1.1" } # https://developer.android.com/jetpack/androidx/releases/navigation3
 navigation3-ui = { module = "org.jetbrains.androidx.navigation3:navigation3-ui", version.ref = "navigation3" }
 
 lifecycle-viewmodel-core = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycle" } # https://mvnrepository.com/artifact/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel/versions
