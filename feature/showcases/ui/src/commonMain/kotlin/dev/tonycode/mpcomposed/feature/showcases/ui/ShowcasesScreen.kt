@@ -22,7 +22,7 @@ internal fun ShowcasesScreen(
     Scaffold(
         topBar = { DsTopBar(title = "CMP on $platformName") },
     ) { contentPadding ->
-        Column(Modifier.padding(contentPadding).fillMaxWidth().padding(32.dp)) {
+        Column(Modifier.padding(contentPadding).fillMaxWidth().padding(horizontal = 32.dp, vertical = 24.dp)) {
             Button(onNavigateToHapticShowcase, Modifier.fillMaxWidth()) { Text("Haptic effect") }
             Button(onNavigateToSharedTransitionShowcase, Modifier.fillMaxWidth()) { Text("Shared element transition") }
         }

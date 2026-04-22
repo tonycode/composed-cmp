@@ -5,7 +5,6 @@ plugins {
 kotlin {
     sourceSets {
         commonMain.dependencies {
-            implementation(projects.core.navigation)
             implementation(projects.feature.haptic.jindong.ui)
             implementation(projects.feature.sharedTransition.ui)
             implementation(projects.feature.showcases.ui)

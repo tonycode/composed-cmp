@@ -37,12 +37,16 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
+                // Each UI module has access to DesignSystem
                 if (path != ":core:designsystem") {
                     implementation(project(":core:designsystem"))
                 }
-                implementation(project(":core:navigation")) // each module-ui is aware about all nav keys
+                // Each UI module has access to Navigation routes
+                implementation(project(":core:navigation"))
+                // For Platform-specific branching
+                implementation(project(":core:platform:domain"))
 
-                implementation(libs.kotlin.stdlib)
+                // Compose dependencies
                 implementation(libs.compose.runtime)
                 implementation(libs.compose.foundation)
                 implementation(libs.compose.material3)
@@ -50,6 +54,7 @@ kotlin {
                 implementation(libs.compose.ui)
                 implementation(libs.compose.uiToolingPreview)
                 implementation(libs.lifecycle.viewmodel.compose)
+                // Navigation 3
                 implementation(libs.navigation3.ui)
             }
         }

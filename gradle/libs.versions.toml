@@ -22,6 +22,8 @@ buildTools = "36.1.0"
 agp = "9.2.0" # https://developer.android.com/studio/releases/gradle-plugin
 java = "17"
 
+androidx-activity = "1.13.0" # androidx-activity = { module = "androidx.activity:activity", version = "1.13.0" }
+
 
 [libraries]
 
@@ -52,8 +54,10 @@ lifecycle-viewmodel-navigation3 = { module = "org.jetbrains.androidx.lifecycle:l
 jindong-compose = { module = "io.github.compose-jindong:jindong-compose", version = "1.1.0" }
 
 ## --- Android dependencies ---
-androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.18.0" } # https://developer.android.com/kotlin/ktx#core
-androidx-activity-compose = { module = "androidx.activity:activity-compose", version = "1.13.0" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version = "1.18.0" } # https://developer.android.com/jetpack/androidx/releases/core
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "androidx-activity" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version = "1.7.1" } # https://developer.android.com/jetpack/androidx/releases/appcompat
 
 
 [plugins]

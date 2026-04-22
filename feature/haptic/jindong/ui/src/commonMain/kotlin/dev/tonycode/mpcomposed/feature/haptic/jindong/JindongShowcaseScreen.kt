@@ -27,7 +27,7 @@ internal fun JindongShowcaseScreen(onNavigateBack: () -> Unit) {
 @Composable
 private fun ScreenContent(modifier: Modifier = Modifier) {
     Column(
-        modifier = modifier.fillMaxWidth().padding(32.dp),
+        modifier = modifier.fillMaxWidth().padding(horizontal = 32.dp, vertical = 24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         DsHaptic.entries.forEach { dsHaptic ->

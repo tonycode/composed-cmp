@@ -9,8 +9,14 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.exclude
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -18,6 +24,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.ScaffoldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -44,11 +51,15 @@ fun FooListScreen(
 
     Scaffold(
         topBar = { DsTopBar("Foo list", onNavigateBack) },
+        // Prevent Scaffold from inserting vertical insets (they are handled in the root Scaffold)
+        contentWindowInsets =
+            ScaffoldDefaults.contentWindowInsets
+                .exclude(WindowInsets.safeDrawing.only(WindowInsetsSides.Vertical)),
     ) { contentPadding ->
         ScreenContent(
             viewModel.fooList,
             onNavigateToDetails = onNavigateToDetails,
-            modifier = Modifier.padding(contentPadding),
+            modifier = Modifier.fillMaxSize().padding(contentPadding),
             sharedTransitionScope = sharedTransitionScope,
             animatedVisibilityScope = animatedVisibilityScope,
         )
@@ -65,7 +76,7 @@ private fun ScreenContent(
 ) {
     LazyColumn(
         modifier,
-        contentPadding = PaddingValues(horizontal = 24.dp, vertical = 36.dp),
+        contentPadding = PaddingValues(start = 24.dp, top = 24.dp, end = 24.dp, bottom = 48.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         items(fooList, key = { it.id }) { item ->

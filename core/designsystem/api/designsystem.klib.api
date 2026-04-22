@@ -6,5 +6,20 @@
 // - Show declarations: true
 
 // Library unique name: <composed-cmp.core:designsystem>
+final object dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette { // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette|null[0]
+    final val CharcoalBlack // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.CharcoalBlack|{}CharcoalBlack[0]
+        final fun <get-CharcoalBlack>(): androidx.compose.ui.graphics/Color // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.CharcoalBlack.<get-CharcoalBlack>|<get-CharcoalBlack>(){}[0]
+    final val ElectricViolet // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.ElectricViolet|{}ElectricViolet[0]
+        final fun <get-ElectricViolet>(): androidx.compose.ui.graphics/Color // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.ElectricViolet.<get-ElectricViolet>|<get-ElectricViolet>(){}[0]
+    final val LavenderMist // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.LavenderMist|{}LavenderMist[0]
+        final fun <get-LavenderMist>(): androidx.compose.ui.graphics/Color // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.LavenderMist.<get-LavenderMist>|<get-LavenderMist>(){}[0]
+    final val White // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.White|{}White[0]
+        final fun <get-White>(): androidx.compose.ui.graphics/Color // dev.tonycode.mpcomposed.core.designsystem.theme/DsPalette.White.<get-White>|<get-White>(){}[0]
+}
+
+final val dev.tonycode.mpcomposed.core.designsystem.theme/dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop // dev.tonycode.mpcomposed.core.designsystem.theme/dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop|#static{}dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop[0]
+
 final fun dev.tonycode.mpcomposed.core.designsystem.components/DsTopBar(kotlin/String?, kotlin/Function0<kotlin/Unit>?, androidx.compose.ui/Modifier?, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // dev.tonycode.mpcomposed.core.designsystem.components/DsTopBar|DsTopBar(kotlin.String?;kotlin.Function0<kotlin.Unit>?;androidx.compose.ui.Modifier?;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
-final fun dev.tonycode.mpcomposed.core.designsystem.theme/DsTheme(kotlin/Function2<androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int) // dev.tonycode.mpcomposed.core.designsystem.theme/DsTheme|DsTheme(kotlin.Function2<androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun dev.tonycode.mpcomposed.core.designsystem.theme/DsTheme(kotlin/Boolean, kotlin/Function2<androidx.compose.runtime/Composer, kotlin/Int, kotlin/Unit>, androidx.compose.runtime/Composer?, kotlin/Int, kotlin/Int) // dev.tonycode.mpcomposed.core.designsystem.theme/DsTheme|DsTheme(kotlin.Boolean;kotlin.Function2<androidx.compose.runtime.Composer,kotlin.Int,kotlin.Unit>;androidx.compose.runtime.Composer?;kotlin.Int;kotlin.Int){}[0]
+final fun dev.tonycode.mpcomposed.core.designsystem.theme/NavigationBarColorEffect(androidx.compose.runtime/Composer?, kotlin/Int) // dev.tonycode.mpcomposed.core.designsystem.theme/NavigationBarColorEffect|NavigationBarColorEffect(androidx.compose.runtime.Composer?;kotlin.Int){}[0]
+final fun dev.tonycode.mpcomposed.core.designsystem.theme/dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop_getter(): kotlin/Int // dev.tonycode.mpcomposed.core.designsystem.theme/dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop_getter|dev_tonycode_mpcomposed_core_designsystem_theme_DsPalette$stableprop_getter(){}[0]

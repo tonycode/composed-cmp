@@ -6,12 +6,18 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.exclude
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.ScaffoldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -39,6 +45,10 @@ fun FooDetailsScreen(
 
     Scaffold(
         topBar = { DsTopBar("Details: ${item.title}", onNavigateBack) },
+        // Prevent Scaffold from inserting vertical insets (they are handled in the root Scaffold)
+        contentWindowInsets =
+            ScaffoldDefaults.contentWindowInsets
+                .exclude(WindowInsets.safeDrawing.only(WindowInsetsSides.Vertical)),
     ) { contentPadding ->
         ScreenContent(
             item,

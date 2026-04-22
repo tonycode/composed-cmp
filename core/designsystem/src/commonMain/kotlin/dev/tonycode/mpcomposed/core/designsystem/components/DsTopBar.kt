@@ -2,6 +2,7 @@ package dev.tonycode.mpcomposed.core.designsystem.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -37,6 +38,9 @@ fun DsTopBar(
         }
     },
     modifier = modifier,
+    // Removes the top padding that TopAppBar adds by default - the root Scaffold in RootContent already
+    // handles the status bar inset via innerPadding, so the inner DsTopBar shouldn't add it again.
+    windowInsets = WindowInsets(0),
     navigationIcon = {
         onNavigateBack?.let {
             IconButton(it) {

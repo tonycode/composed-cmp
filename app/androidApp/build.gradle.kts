@@ -9,12 +9,11 @@ kotlin {
     jvmToolchain(libs.versions.java.get().toInt())
 
     dependencies {
-        implementation(projects.core.designsystem)
         implementation(projects.app.shared)
 
         implementation(libs.androidx.core.ktx)
         implementation(libs.androidx.activity.compose)
-        implementation(libs.compose.uiToolingPreview)
+        implementation(libs.androidx.appcompat)
     }
 }
 
@@ -53,9 +52,4 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
-}
-
-dependencies {
-    // ui-tooling is required for the Compose Preview to render in Android Studio.
-    debugImplementation(libs.compose.uiTooling)
 }
